@@ -1,0 +1,19 @@
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
+}
+
+nav {
+    position: absolute;
+}
+
+section {
+    margin-left: 300px;
+}
+
+footer {
+    background-color: brown;
+    font-style: italic;
+    position: fixed;
+}

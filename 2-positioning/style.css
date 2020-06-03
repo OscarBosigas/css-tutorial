@@ -1,0 +1,25 @@
+header {
+    background-color: black;
+    border: 2px solid green;
+    color: white;
+    position: sticky;
+}
+
+nav {
+    border: 2px solid blue;
+    position: absolute;
+    width: 200px;
+}
+
+section {
+    border: 2px solid red;
+    margin-left: 200px;
+    position: static;
+}
+
+footer {
+    background-color: brown;    
+    border: 2px solid orange;
+    font-style: italic;
+    position: fixed;
+}

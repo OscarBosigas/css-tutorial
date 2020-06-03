@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="augusticor" />
+    <link rel="stylesheet" href="style.css">
+    <title>Oscar Bosigas Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Form</h1>
+    </header>
+
+    <div>
+        <form>
+            <fieldset>
+                <h3>Personal Information</h3>
+                <label for="firstName">First Name</label>
+                <input required type="text" id="tname" name="first_Name">
+                 
+                <label for="LastName">Last Name</label>
+                <input required type="text" id="lastname" name="last_Name">
+                 
+                <label for="email">Email</label>
+                <input required type="email" id="email" name="email">
+                 
+                <label for="dateOfBirth">Date of birth</label>
+                <input required type="date" id="tdate" name="date">
+            <fieldset>
+                <label for="gender">Gender</label>
+                <input required type="text" id="gender" list="l1" required pattern="[Mm]Male | [Ff]Female | [Oo]Other">
+                <datalist id="l1">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </datalist>
+            </fieldset>
+            </fieldset>
+            <fieldset>
+                <h3>Socioeconomic status</h3>
+                <label for="economicStatus1">Socioeconomic status 1</label>
+                <input required type="radio" id="st1" value="1">
+                <label for="economicStatus2">Socioeconomic status 2</label>
+                <input required type="radio" id="st2" value="2">
+                <label for="economicStatus3">Socioeconomic status 3</label>
+                <input required type="radio" id="st3" value="3">
+                <label for="economicStatus4">Socioeconomic status 4</label>
+                <input required type="radio" id="st4" value="4">
+            </fieldset>
+            <fieldset>
+                <h3>Hobbies</h3>
+                <label for="music">Music</label>
+                <input required type="checkbox" id="cmusic" value="music">
+                <label for="videoGames">Video Games</label>
+                <input required type="checkbox" id="cvideogames" value="Video Games">
+                <label for="sports">Sports</label>
+                <input required type="checkbox" id="csports" value="Sports">
+            </fieldset>
+            <fieldset>
+                <h3>Profile Avatar</h3>
+                <label for="uploadYourImage">Upload your image</label>
+                <input required type="file" id="image" name="image-profile" accept="image/png, image/jpeg">
+            </fieldset>
+             
+            <button >Send</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Oscar B.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+header, footer {
+    background-color: coral;
+}
+form {    
+    background-color: darkgoldenrod;
+    background-image: url(https://dissenyaweb.com/blog/diseno_web/wp-content/uploads/large-background-1024x724.jpg);
+    background-size: cover;
+}
+button:hover {
+    background-color: darkorange;
+}
+aside {
+    font-size: larger;
+}
+
+p {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.font {
+    font-weight: inherit;
+}
